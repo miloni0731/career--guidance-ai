@@ -90,7 +90,7 @@ career_guidance_ai/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/career-guidance-ai.git
+   git clone https://github.com/miloni0731/career-guidance-ai.git
    cd career-guidance-ai
    ```
 
