@@ -113,10 +113,10 @@ career_guidance_ai/
 4. **Configure Hugging Face API**
    Create `.streamlit/secrets.toml`:
    ```toml
-   [api]
-   hf_token = "your_token_here"
-   provider = "novita"
-   model_name = "tiiuae/falcon-7b-instruct"
+    [api]
+    hf_token = "hf_xxxxxxxxxxxxxxxxxxx"
+    provider = "Featherless AI"
+    model_name = "mistralai/Mistral-7B-Instruct-v0.2"
    ```
 
 ### Running the Application
