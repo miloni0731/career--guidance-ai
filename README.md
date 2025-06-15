@@ -209,7 +209,6 @@ The system categorizes careers into six primary domains:
 hf_token = "your_token_here"
 provider = "Featherless"
 model_name = "sarvamai/sarvam-m"
-base_url = "https://api.featherless.ai/v1"
 ```
 
 ### Request/Response Format
