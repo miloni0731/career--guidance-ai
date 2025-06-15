@@ -51,31 +51,29 @@ An intelligent career guidance system that uses advanced language models to unde
 
 ```
 career_guidance_ai/
-├── streamlit_app.py # Streamlit UI + backend logic
-├── README.md # Project overview, setup, usage
+├── streamlit_app.py                # Streamlit UI + backend logic
+├── main.py                         # (optional, deprecated CLI)
+├── README.md                       # Project overview, setup, usage
 │
 ├── configs/
-│   ├── prompt_templates.json     # Prompt formats
-│   └── career_paths.json         # Career domains
+│   ├── prompt_templates.json       # Prompt formats
+│   └── career_paths.json           # Career domains
 ├── data/
-│   └── test_inputs.json          # Test cases
+│   └── test_inputs.json            # Test cases
 ├── models/
-│   ├── embedding_model.py        # Sentence-transformer
-│   └── generation_model.py       # HF pipeline
+│   └── generation_model.py         # Only LLM API logic (no embeddings)
 ├── pipeline/
-│ ├── preference_extractor.py # Rule-based or HF model-based extractor
-│ ├── path_mapper.py # Embedding matcher
-│ ├── explanation_generator.py # Generates reasoning using HF LLMs
-│ └── fallback_handler.py # Fallback question logic
+│   ├── preference_extractor.py     # Uses LLM for extraction
+│   ├── path_mapper.py              # Uses LLM for mapping/classification
+│   ├── fallback_handler.py         # Uses LLM for clarifying questions
 │
 ├── utils/
-│ ├── similarity_utils.py # Cosine similarity
-│ └── io_helpers.py # Load/save utils
+│   ├── similarity_utils.py         # (optional, can be removed if not used)
+│   └── io_helpers.py               # Load/save utils
 │
-├── requirements.txt # Streamlit + Transformers dependencies
+├── requirements.txt                # Only Streamlit, requests, pandas, dotenv
 └── .streamlit/
-   └── secrets.toml # Hugging Face API credentials
-
+    └── secrets.toml                # Hugging Face API credentials
 ```
 
 ## Setup Instructions
@@ -85,6 +83,15 @@ career_guidance_ai/
 - Python 3.8 or higher
 - Hugging Face API token
 - Git
+
+### Configure HuggingFace LLM
+Create .streamlit/secrets.toml:
+```bash
+[api]
+hf_token = "hf_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"  # Your Hugging Face token
+provider = "novita"
+model_name = "teknium/OpenHermes-2.5-Mistral-7B" 
+```
 
 ### Installation
 
