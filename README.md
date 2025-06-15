@@ -8,17 +8,17 @@ An intelligent career guidance system that uses advanced language models to unde
 
 ### Key Features
 
--  **Intelligent Preference Extraction**
+1.  **Intelligent Preference Extraction**
   - Natural language understanding
   - Implicit preference detection
   - Skill and interest identification
 
--  **Smart Career Mapping**
+2.  **Smart Career Mapping**
   - Semantic similarity matching
   - Confidence scoring
   - Multiple career path suggestions
 
--  **Personalized Explanations**
+3.  **Personalized Explanations**
   - Clear, concise reasoning
   - Follow-up questions
   - Career path exploration
