@@ -1,0 +1,203 @@
+{
+    "STEM": {
+        "title": "STEM",
+        "description": "Science, Technology, Engineering, and Mathematics",
+        "keywords": ["problem solving", "analytical thinking", "mathematics", "science", "engineering", "technology", "programming", "research", "data analysis", "experimentation"],
+        "example_roles": ["Software Engineer", "Data Scientist", "Research Scientist", "Mechanical Engineer", "Civil Engineer", "Mathematician"]
+    },
+    "Arts": {
+        "title": "Arts",
+        "description": "Creative and Visual Arts",
+        "keywords": ["creativity", "design", "visual arts", "music", "dance", "theater", "photography", "fashion", "graphic design", "illustration"],
+        "example_roles": ["Graphic Designer", "Art Director", "Musician", "Fashion Designer", "Photographer", "Animator"]
+    },
+    "Business": {
+        "title": "Business",
+        "description": "Business and Management",
+        "keywords": ["leadership", "management", "strategy", "marketing", "finance", "entrepreneurship", "sales", "project management", "business development"],
+        "example_roles": ["Business Analyst", "Marketing Manager", "Financial Analyst", "Project Manager", "Entrepreneur", "Consultant"]
+    },
+    "Healthcare": {
+        "title": "Healthcare",
+        "description": "Medical and Healthcare Services",
+        "keywords": ["medicine", "healthcare", "patient care", "medical research", "nursing", "public health", "mental health", "pharmacy"],
+        "example_roles": ["Doctor", "Nurse", "Pharmacist", "Medical Researcher", "Healthcare Administrator", "Mental Health Professional"]
+    },
+    "Education": {
+        "title": "Education",
+        "description": "Teaching and Educational Services",
+        "keywords": ["teaching", "education", "curriculum development", "student development", "educational technology", "counseling"],
+        "example_roles": ["Teacher", "Professor", "Educational Consultant", "School Counselor", "Curriculum Developer", "Education Administrator"]
+    },
+    "Social_Services": {
+        "title": "Social Services",
+        "description": "Social Work and Community Services",
+        "keywords": ["social work", "community service", "counseling", "nonprofit", "advocacy", "human services", "social justice"],
+        "example_roles": ["Social Worker", "Community Organizer", "Nonprofit Manager", "Counselor", "Human Rights Advocate", "Social Services Manager"]
+    },
+    "software_engineering": {
+        "title": "Software Engineering",
+        "description": "Design, develop, and maintain software systems and applications. Work on creating efficient, scalable, and user-friendly software solutions.",
+        "keywords": [
+            "programming",
+            "coding",
+            "software development",
+            "problem solving",
+            "algorithms",
+            "data structures",
+            "system design",
+            "debugging",
+            "testing",
+            "collaboration"
+        ],
+        "required_skills": [
+            "Programming languages",
+            "Problem-solving",
+            "Algorithmic thinking",
+            "System design",
+            "Version control",
+            "Testing",
+            "Debugging"
+        ],
+        "traits": [
+            "Analytical",
+            "Detail-oriented",
+            "Logical",
+            "Creative",
+            "Patient",
+            "Collaborative"
+        ]
+    },
+    "data_science": {
+        "title": "Data Science",
+        "description": "Analyze complex data sets to help guide business decisions. Combine statistical analysis, programming, and domain expertise to extract insights from data.",
+        "keywords": [
+            "data analysis",
+            "statistics",
+            "machine learning",
+            "python",
+            "r",
+            "sql",
+            "visualization",
+            "research",
+            "mathematics",
+            "problem solving"
+        ],
+        "required_skills": [
+            "Statistical analysis",
+            "Programming",
+            "Data visualization",
+            "Machine learning",
+            "SQL",
+            "Research methods",
+            "Mathematics"
+        ],
+        "traits": [
+            "Analytical",
+            "Curious",
+            "Detail-oriented",
+            "Problem-solver",
+            "Communicative",
+            "Self-motivated"
+        ]
+    },
+    "product_management": {
+        "title": "Product Management",
+        "description": "Lead the development and success of products by understanding user needs, market trends, and business goals. Coordinate between different teams to deliver successful products.",
+        "keywords": [
+            "product strategy",
+            "user research",
+            "market analysis",
+            "project management",
+            "communication",
+            "leadership",
+            "analytics",
+            "user experience",
+            "business strategy",
+            "team coordination"
+        ],
+        "required_skills": [
+            "Strategic thinking",
+            "User research",
+            "Project management",
+            "Communication",
+            "Data analysis",
+            "Leadership",
+            "Problem-solving"
+        ],
+        "traits": [
+            "Strategic",
+            "Empathetic",
+            "Organized",
+            "Decisive",
+            "Collaborative",
+            "Adaptable"
+        ]
+    },
+    "ux_design": {
+        "title": "UX Design",
+        "description": "Create user-centered designs by understanding user needs, behaviors, and motivations. Design intuitive and engaging user experiences for digital products.",
+        "keywords": [
+            "user research",
+            "wireframing",
+            "prototyping",
+            "user testing",
+            "interaction design",
+            "visual design",
+            "information architecture",
+            "usability",
+            "empathy",
+            "creativity"
+        ],
+        "required_skills": [
+            "User research",
+            "Wireframing",
+            "Prototyping",
+            "Visual design",
+            "User testing",
+            "Information architecture",
+            "Design tools"
+        ],
+        "traits": [
+            "Empathetic",
+            "Creative",
+            "Detail-oriented",
+            "Analytical",
+            "Communicative",
+            "User-focused"
+        ]
+    },
+    "digital_marketing": {
+        "title": "Digital Marketing",
+        "description": "Develop and execute marketing strategies across digital channels. Analyze campaign performance and optimize for better results.",
+        "keywords": [
+            "social media",
+            "content marketing",
+            "seo",
+            "analytics",
+            "campaign management",
+            "email marketing",
+            "strategy",
+            "creativity",
+            "data analysis",
+            "communication"
+        ],
+        "required_skills": [
+            "Social media marketing",
+            "Content creation",
+            "SEO/SEM",
+            "Analytics",
+            "Email marketing",
+            "Campaign management",
+            "Data analysis"
+        ],
+        "traits": [
+            "Creative",
+            "Analytical",
+            "Strategic",
+            "Adaptable",
+            "Communicative",
+            "Results-driven"
+        ]
+    }
+} 

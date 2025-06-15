@@ -1,0 +1,55 @@
+{
+    "test_cases": [
+        {
+            "input": "I love designing and solving puzzles, but I don't like reading too much theory.",
+            "expected_interests": ["designing", "solving puzzles"],
+            "expected_path": "STEM",
+            "expected_explanation": "Your interest in design and puzzle-solving aligns well with STEM fields, particularly in areas like software engineering and data science where creative problem-solving is essential."
+        },
+        {
+            "input": "I enjoy helping others and have good communication skills. I'm passionate about mental health and wellness.",
+            "expected_interests": ["helping others", "mental health", "wellness"],
+            "expected_path": "Healthcare",
+            "expected_explanation": "Your passion for helping others and interest in mental health makes healthcare an excellent fit, particularly in roles focused on mental health and wellness."
+        },
+        {
+            "input": "I'm creative and love working with colors and design. I enjoy expressing myself through art.",
+            "expected_interests": ["creativity", "art", "design", "colors"],
+            "expected_path": "Arts",
+            "expected_explanation": "Your creative nature and passion for art and design suggests a strong alignment with careers in the arts, where you can express yourself through visual mediums."
+        },
+        {
+            "input": "I like numbers and analyzing data. I'm good at making decisions and leading teams.",
+            "expected_interests": ["numbers", "data analysis", "leadership", "decision making"],
+            "expected_path": "Business",
+            "expected_explanation": "Your analytical skills and leadership abilities make you well-suited for business roles, particularly in areas like financial analysis or management."
+        }
+    ],
+    "test_case_1": {
+        "input": "I enjoy solving complex problems and writing code. I'm good at mathematics and logical thinking. I don't like repetitive tasks or working in isolation.",
+        "expected_preferences": {
+            "interests": ["problem solving", "coding", "mathematics"],
+            "skills": ["logical thinking", "mathematics", "programming"],
+            "dislikes": ["repetitive tasks", "working in isolation"],
+            "traits": ["analytical", "logical"]
+        }
+    },
+    "test_case_2": {
+        "input": "I love working with people and helping them solve their problems. I'm good at communication and understanding others' needs. I don't enjoy working with numbers or technical details.",
+        "expected_preferences": {
+            "interests": ["helping people", "problem solving"],
+            "skills": ["communication", "understanding needs"],
+            "dislikes": ["working with numbers", "technical details"],
+            "traits": ["empathetic", "communicative"]
+        }
+    },
+    "test_case_3": {
+        "input": "I'm creative and enjoy designing things. I have a good eye for aesthetics and user experience. I don't like strict rules or rigid structures.",
+        "expected_preferences": {
+            "interests": ["design", "creativity"],
+            "skills": ["aesthetics", "user experience"],
+            "dislikes": ["strict rules", "rigid structures"],
+            "traits": ["creative", "aesthetic"]
+        }
+    }
+} 

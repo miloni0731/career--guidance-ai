@@ -1,0 +1,40 @@
+{
+  "preference_extraction": {
+    "system": "You are an AI assistant that extracts user preferences from text. Format your response exactly as shown in the example, with 'Extracted Profile:' followed by Interests, Skills, and Traits sections.",
+    "user": "Extract preferences from this text: {text}\n\nFormat your response exactly like this:\nExtracted Profile:\nInterests: [list interests]\nSkills: [list skills]\nTraits: [list traits]",
+    "format": {
+      "interests": ["list of interests"],
+      "skills": ["list of skills"],
+      "traits": ["list of personality traits"]
+    }
+  },
+
+  "career_mapping": {
+  "system": "You are an AI assistant that maps user preferences to career paths. Consider interests, skills, dislikes, and personality traits to find the most suitable career path.",
+  "user": "Map these preferences to a career path: {preferences}\n\nReturn a JSON object in the format:\n{{\n  \"career_path\": \"...\",\n  \"confidence\": 0.xx,\n  \"matching_factors\": [\"factor1\", \"factor2\"]\n}}",
+  "format": {
+    "career_path": "path name",
+    "confidence": "score between 0 and 1",
+    "matching_factors": ["list of factors that led to this recommendation"]
+  }
+},
+
+
+  "explanation": {
+    "system": "You are an AI assistant that generates personalized explanations for career recommendations. Format your response as a single paragraph explaining why the career path is suitable based on the user's preferences.",
+    "user": "Generate an explanation for recommending {career_path} based on these preferences: {preferences}\n\nFormat your response as a single paragraph starting with 'Explanation:'",
+    "format": "A detailed explanation paragraph"
+  },
+
+  "clarification_questions": {
+    "system": "You are an AI assistant that generates clarifying questions when user input is ambiguous. Generate 2-3 specific questions to better understand the user's preferences.",
+    "user": "Generate clarifying questions for this ambiguous input: {text}\n\nFormat your response as a JSON array: [\"question1\", \"question2\", \"question3\"]",
+    "format": ["question1", "question2", "question3"]
+  },
+
+  "follow_up": {
+    "system": "You are an AI assistant that generates follow-up questions to help users explore their recommended career path further. Format your response with 'Follow-up Questions:' followed by a bulleted list.",
+    "user": "Generate follow-up questions for exploring {career_path}\n\nFormat your response exactly like this:\nFollow-up Questions:\n- [question 1]\n- [question 2]\n- [question 3]",
+    "format": ["question1", "question2", "question3"]
+  }
+}
