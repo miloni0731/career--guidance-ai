@@ -78,7 +78,7 @@ career_guidance_ai/
 
 ```
 
-## 🛠 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 
@@ -125,7 +125,7 @@ career_guidance_ai/
 streamlit run streamlit_app.py
 ```
 
-## 💻 Usage Example
+## Usage Example
 
 ```python
 # Example input
@@ -148,7 +148,7 @@ Confidence: 0.85
 - Are you interested in learning programming languages?
 ```
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **Language Models**
   - `sentence-transformers/all-MiniLM-L6-v2`
