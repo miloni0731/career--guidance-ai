@@ -150,11 +150,6 @@ Confidence: 0.85
 
 ## Technical Stack
 
-- **Language Models**
-  - `sentence-transformers/all-MiniLM-L6-v2`
-  - `tiiuae/falcon-7b-instruct`
-  - `google/flan-t5-base`
-
 - **Frameworks & Libraries**
   - Streamlit
   - Hugging Face Transformers
