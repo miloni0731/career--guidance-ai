@@ -6,24 +6,24 @@
 
 An intelligent career guidance system that uses advanced language models to understand user interests and provide personalized career recommendations. The system features a user-friendly Streamlit interface and can handle natural language input to extract preferences, map them to career paths, and generate personalized explanations.
 
-### ✨ Key Features
+### Key Features
 
-- 🤖 **Intelligent Preference Extraction**
+-  **Intelligent Preference Extraction**
   - Natural language understanding
   - Implicit preference detection
   - Skill and interest identification
 
-- 🎯 **Smart Career Mapping**
+-  **Smart Career Mapping**
   - Semantic similarity matching
   - Confidence scoring
   - Multiple career path suggestions
 
-- 💡 **Personalized Explanations**
+-  **Personalized Explanations**
   - Clear, concise reasoning
   - Follow-up questions
   - Career path exploration
 
-## 🏗️ System Architecture
+## System Architecture
 
 ### Core Components
 
@@ -47,7 +47,7 @@ An intelligent career guidance system that uses advanced language models to unde
    - Clarifying questions
    - Input refinement
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 career_guidance_ai/
@@ -132,17 +132,17 @@ streamlit run streamlit_app.py
 "I love designing and solving puzzles, but I don't like reading too much theory."
 
 # System response
-✅ Extracted Profile:
+Extracted Profile:
 Interests: designing, solving puzzles
 Skills: problem-solving, creativity
 Traits: analytical, creative
 
-🎯 Recommended Career Path: STEM
+Recommended Career Path: STEM
 Confidence: 0.85
 
-🧠 Explanation: Your interest in design and puzzle-solving aligns well with STEM fields, particularly in areas like software engineering and data science where creative problem-solving is essential.
+ Explanation: Your interest in design and puzzle-solving aligns well with STEM fields, particularly in areas like software engineering and data science where creative problem-solving is essential.
 
-❓ Follow-up Questions:
+ Follow-up Questions:
 - Have you considered exploring software development or data science?
 - Would you enjoy working on complex technical problems?
 - Are you interested in learning programming languages?
@@ -168,8 +168,6 @@ Confidence: 0.85
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
 
