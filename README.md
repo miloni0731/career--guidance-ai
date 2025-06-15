@@ -273,10 +273,6 @@ streamlit run streamlit_app.py --server.port 8501
 - Implement proper logging and monitoring
 - Set up SSL certificates for HTTPS
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Author
 
 **Miloni Panchal**
@@ -289,7 +285,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Hugging Face for providing language model infrastructure
 - Streamlit for the web application framework
 - The open-source community for foundational tools and libraries
-- Brainwonders for the internship opportunity and project scope
 
 ## Support and Documentation
 
@@ -300,9 +295,3 @@ For technical support, bug reports, or feature requests:
 3. Provide system information and reproduction steps
 
 ---
-
-**Enterprise-ready AI career guidance solution for educational and professional development applications.**
-
----
-
-*This README.md file is ready to be copied and used directly in your GitHub repository.*
